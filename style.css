@@ -15,6 +15,7 @@ body {
 
 .parent {
     width: 100%;
+    /* max-width: 1220px; */
     display: flex;
     justify-content: space-between;
 }
@@ -97,6 +98,7 @@ header .second .icons ul li a{
 
 section.section {
     width: 100%;
+    /* max-width: 1220px; */
     border-bottom: 1px solid #eaecef;
 }
 
@@ -154,15 +156,92 @@ section .section-list ul li a img{
 
 .container-1 {
     width: 100%;
-    margin: 0 12px;
+    /* max-width: 1050px; */
+    margin: 0 18px;
+    padding: 0 8px;
     display: flex;
 }
 
 .container-1 .child-1 {
-    width: 30%;
+    width: 22%;
+    padding: 0 8px;
 }
 
 .container-1 .child-2 {
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 71%;
+    padding: 0 16px;
 }
 
+.container-1 .child-2 .first {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaecef;
+}
+
+.container-1 .child-2 .first .btn {
+    margin-top: 15px;
+}
+
+.container-1 .child-2 .first .btn li {
+    list-style: none;
+    color: #000;
+}
+
+.container-1 .child-2 .first .btn li a {
+    color: #000;
+}
+
+.container-1 .child-2 .first .btn i {
+    padding-left: 6px;
+}
+
+.btn-global {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 20px;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    cursor: pointer;
+    border-color: rgba(27, 31, 35, 0.15);
+    box-shadow: 0 1px 0 rgba(27, 31, 35, 0.04), 0 1px 0 hsla(0, 0%, 100%, 0.25);
+    transition: .2s cubic-bezier(.3, 0, .5,1);
+    transition-property: color, background-color, border-color;
+}
+
+.btn-first {
+    color: #24292e;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .75;
+    background-color: #fafbfc;
+}
+
+.btn-second {
+    color: #fff;
+    background-color: #2ea44f;
+    
+}
+
+.container-1 .child-2 .first .form-group .form-control {
+    border: 1px solid #eaecef;
+    border-radius: 6px;
+    background: none;
+    width: 535px;
+    height: 30px;
+    margin: 16px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+
+/* ::placeholder {
+    color: rgb(199, 199, 199);
+    padding-left: 5%
+
+} */

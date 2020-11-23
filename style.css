@@ -238,6 +238,36 @@ section .section-list ul li a img{
 
 
 
+.container-1 .child-2 .repos .repo-group {
+    padding: 25px 0;
+    border-bottom: 1px solid #eaecef;
+    
+}
+
+.container-1 .child-2 .repos a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container-1 .child-2 .repos .repo-group .block-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1 .child-2 .repos .repo-group .block-1 a{
+    color: #0366d6;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.repos .repo-group .block-2 .sub {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
 
 
 /* ::placeholder {
